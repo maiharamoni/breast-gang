@@ -10,4 +10,19 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
+    color: #000
+}
+
+/* heading and logo */
+
+h1, h2 {
+    font-family: Anton, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #F353D5;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
