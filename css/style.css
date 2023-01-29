@@ -13,6 +13,7 @@ body {
     color: #000
 }
 
+
 /* heading and logo */
 
 h1, h2 {
@@ -25,4 +26,35 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+}
+
+
+/* nav links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #F353D5;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #F353D5;
+}
+
+.active {
+    border-bottom: 1px solid #F353D5;;
 }
