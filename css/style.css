@@ -81,6 +81,14 @@ h1, h2 {
    background-size: cover;
 }
 
+#text {
+    text-align: center;
+    margin-top: 15px;
+    font-family: Lora;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
 /* fight for */
 
 #fight-for {
@@ -106,14 +114,21 @@ h1, h2 {
 }
 
 .head1 {
-    font-size: 30px;
+    font-size: 25px;
+    color: #F353D5;
+    line-height: 45px;
+    text-align: center;
+}
+
+.head2 {
+    font-size: 25px;
     color: #F353D5;
     line-height: 45px;
     text-align: center;
 }
 
 .head3 {
-    font-size: 30px;
+    font-size: 25px;
     color: #F353D5;
     line-height: 45px;
     text-align: center;
@@ -135,4 +150,22 @@ h1, h2 {
     clear: both;
     margin-bottom: 50px;
     text-align: justify;
+}
+
+.center-content {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 20px;
+    clear: none;
+    text-align: justify;
+
+}
+
+#what {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 300%;
+    color: #fff;
 }
