@@ -7,11 +7,11 @@
     border: none;
 }
 
-body {
+body{
     background-color: #F353D5;
 }
 
-body {
+body{
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #fff;
@@ -20,14 +20,14 @@ body {
 
 /* heading and logo */
 
-h1, h2 {
+h1, h2{
     font-family: Anton, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
 }
 
-#logo {
+#logo{
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -36,43 +36,43 @@ h1, h2 {
 
 /* nav links */
 
-#menu {
+#menu{
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu, #logo{
     line-height: 75px;
 }
 
-#menu li {
+#menu li{
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+#menu a{
     text-decoration: none;
     color: #fff;
 }
 
-#menu a:hover {
+#menu a:hover{
     border-bottom: 1px solid #fff;
 }
 
-.active {
+.active{
     border-bottom: 1px solid #fff;
 }
 
 /* hero image */
 
-#hero-outer {
+#hero-outer{
     height: 600px; 
     width: 100%;
     overflow: hidden;
 }
 
-#hero-image {
+#hero-image{
    background: url('../assets/images/hero-image.jpg');
    height: 600px; 
    width: 100%;
@@ -81,7 +81,7 @@ h1, h2 {
    background-size: cover;
 }
 
-#text {
+#text{
     text-align: center;
     margin-top: 15px;
     font-family: Lora;
@@ -91,50 +91,50 @@ h1, h2 {
 
 /* fight for */
 
-#fight-for {
+#fight-for{
     height: 500px;
     background-color: #2B18A3;
 }
 
-#left {
+#left{
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right {
+#right{
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center {
+#center{
     width: 33%;
     margin: 0 auto;
 }
 
-.head1 {
+.head1{
     font-size: 25px;
     color: #F353D5;
     line-height: 45px;
     text-align: center;
 }
 
-.head2 {
+.head2{
     font-size: 25px;
     color: #F353D5;
     line-height: 45px;
     text-align: center;
 }
 
-.head3 {
+.head3{
     font-size: 25px;
     color: #F353D5;
     line-height: 45px;
     text-align: center;
 }
 
-.left-content {
+.left-content{
     width: 60%;
     float: right;
     line-height: 20px;
@@ -143,7 +143,7 @@ h1, h2 {
     text-align: justify;
 }
 
-.right-content {
+.right-content{
     width: 60%;
     float: left;
     line-height: 20px;
@@ -152,7 +152,7 @@ h1, h2 {
     text-align: justify;
 }
 
-.center-content {
+.center-content{
     width: 300px;
     height: 300px;
     margin-top: 20px;
@@ -163,7 +163,7 @@ h1, h2 {
 
 }
 
-#what {
+#what{
     text-align: center;
     margin: 25px 0;
     font-size: 300%;
@@ -172,21 +172,82 @@ h1, h2 {
 
 /* footer */
 
-footer {
+footer{
     height: fit-content;
 }
 
-.social-network {
+.social-network{
     text-align: center;
 }
 
-.social-network li {
+.social-network li{
     display: inline;
 }
 
-.social-network i {
+.social-network i{
     font-size: 160%;
     margin: 0.5%;
     padding: 2%;
     color: #fff;
+}
+
+
+/* Who we are */
+
+#introduction{
+    clear: both;
+}
+
+.frame{
+    clear: both;
+    height: 700px;
+    background-color: #fff;
+}
+
+#text{
+    color: #F353D5;
+    font-size: 280%;
+    font-family: Anton;
+}
+
+#style-p{
+    font-size: 155%;
+    width: 600px;
+    height: 500px;
+    font-family: Montserrat;
+    font-weight: lighter;
+    color: #000;
+    text-align: left;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+
+/* Reach out page */
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.container::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/images/photo03.jpg');
+    background: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.content-box{
+
 }
