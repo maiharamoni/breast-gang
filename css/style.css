@@ -104,3 +104,35 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
 }
+
+.head1 {
+    font-size: 30px;
+    color: #F353D5;
+    line-height: 45px;
+    text-align: center;
+}
+
+.head3 {
+    font-size: 30px;
+    color: #F353D5;
+    line-height: 45px;
+    text-align: center;
+}
+
+.left-content {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.right-content {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: justify;
+}
