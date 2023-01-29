@@ -169,3 +169,24 @@ h1, h2 {
     font-size: 300%;
     color: #fff;
 }
+
+/* footer */
+
+footer {
+    height: fit-content;
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network li {
+    display: inline;
+}
+
+.social-network i {
+    font-size: 160%;
+    margin: 0.5%;
+    padding: 2%;
+    color: #fff;
+}
