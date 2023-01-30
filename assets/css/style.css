@@ -69,16 +69,15 @@ h1, h2{
 #hero-outer{
     height: 600px; 
     width: 100%;
-    overflow: hidden;
 }
 
 #hero-image{
-   background: url('../images/hero-image.jpg')
+   background: url('../images/hero-image.jpg');
    height: 600px; 
    width: 100%;
-   background-position: center; 
-   background-repeat: no-repeat; 
+   background-repeat: no-repeat;
    background-size: cover;
+   
 }
 
 #text{
@@ -111,6 +110,7 @@ h1, h2{
 #center{
     width: 33%;
     margin: 0 auto;
+    justify-content: space-evenly;
 }
 
 .head1{
