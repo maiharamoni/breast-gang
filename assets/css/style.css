@@ -69,6 +69,7 @@ h1, h2{
 #hero-outer{
     height: 600px; 
     width: 100%;
+    overflow: hidden;
 }
 
 #hero-image{
@@ -77,7 +78,7 @@ h1, h2{
    width: 100%;
    background-repeat: no-repeat;
    background-size: cover;
-   
+   background-position: center;
 }
 
 #text{
@@ -85,7 +86,7 @@ h1, h2{
     margin-top: 15px;
     font-family: Lora;
     font-weight: bold;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 /* fight for */
@@ -110,7 +111,6 @@ h1, h2{
 #center{
     width: 33%;
     margin: 0 auto;
-    justify-content: space-evenly;
 }
 
 .head1{
@@ -124,7 +124,6 @@ h1, h2{
     font-size: 25px;
     color: #F353D5;
     line-height: 45px;
-    text-align: center;
 }
 
 .head3{
@@ -159,8 +158,6 @@ h1, h2{
     margin-bottom: 50px;
     line-height: 20px;
     clear: none;
-    text-align: justify;
-
 }
 
 #what{
@@ -204,10 +201,13 @@ footer{
     background-color: #fff;
 }
 
-#text{
+#textpage2{
     color: #F353D5;
     font-size: 280%;
     font-family: Anton;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
 #style-p{
@@ -222,6 +222,11 @@ footer{
     text-align: justify;
 }
 
+#photo2{
+    display: block;
+    float: right;
+    width: 50%;
+}
 
 /* Reach out page */
 
