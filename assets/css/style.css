@@ -73,7 +73,7 @@ h1, h2{
 }
 
 #hero-image{
-   background: url('../assets/images/hero-image.jpg');
+   background: url('../images/hero-image.jpg')
    height: 600px; 
    width: 100%;
    background-position: center; 
