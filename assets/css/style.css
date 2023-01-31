@@ -37,12 +37,12 @@ h1, h2{
 /* nav links */
 
 #menu{
-    font-size: 110%;
+    font-size: 115%;
     letter-spacing: 4px;
 }
 
 #menu, #logo{
-    line-height: 75px;
+    line-height: 80px;
 }
 
 #menu li{
@@ -57,11 +57,11 @@ h1, h2{
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #88C9FA;
 }
 
 .active{
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #88C9FA;
 }
 
 /* hero image */
@@ -185,7 +185,7 @@ footer{
     font-size: 160%;
     margin: 0.5%;
     padding: 2%;
-    color: #fff;
+    color: #88C9FA;
 }
 
 
@@ -205,7 +205,7 @@ footer{
     color: #F353D5;
     font-size: 280%;
     font-family: Anton;
-    text-align: left;
+    text-align: center;
     margin-left: 30px;
     margin-top: 5px;
 }
@@ -223,7 +223,6 @@ footer{
 }
 
 #photo2{
-    display: block;
     float: right;
     width: 50%;
 }
@@ -233,9 +232,10 @@ footer{
 .container{
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 35%;
     height: 100%;
     padding: 20px 100px;
 }
@@ -316,6 +316,7 @@ footer{
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
     background-color: #2B18A3;
+    align-items: stretch;
     cursor: pointer;
     outline: none;
     border: none;
@@ -324,5 +325,5 @@ footer{
 }
 
 .btn:hover{
-    background-color: #000;
+    background-color: #88C9FA;
 }
