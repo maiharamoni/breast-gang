@@ -89,75 +89,37 @@ h1, h2{
     text-transform: uppercase;
 }
 
-/* fight for */
+/* fight for section */
 
 #fight-for{
-    height: 500px;
+    height: 300px;
     background-color: #2B18A3;
 }
 
-#left{
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right{
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center{
-    width: 33%;
-    margin: 0 auto;
-}
-
-.head1{
-    font-size: 25px;
-    color: #F353D5;
-    line-height: 45px;
-    text-align: center;
-}
-
-.head2{
-    font-size: 25px;
-    color: #F353D5;
-    line-height: 45px;
-}
-
-.head3{
-    font-size: 25px;
-    color: #F353D5;
-    line-height: 45px;
-    text-align: center;
-}
-
-.left-content{
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    text-align: justify;
-}
-
-.right-content{
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    text-align: justify;
-}
-
-.center-content{
-    width: 300px;
-    height: 300px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    line-height: 20px;
-    clear: none;
+.text{
+    padding:20px; 
+    background-color:#2B18A3
+    column-count:3;
+    column-gap:50px; 
+    column-rule:1px solid #fff; 
+    column-width:300px; 
+    
+    -webkit-column-count:3;
+    -webkit-column-gap:50px; 
+    -webkit-column-rule:1px solid #fff;
+    -moz-column-width:300px; 
+    
+    -moz-column-count:3;
+    -moz-column-gap:50px; 
+    -moz-column-rule:1px solid #fff;
+    -moz-column-width:300px; 
+ }
+       
+p { 
+   color:#fff
+   font-size:1em; 
+   margin-bottom:20px; 
+   font-family: Montserrat;
 }
 
 #what{
@@ -166,6 +128,13 @@ h1, h2{
     font-size: 300%;
     color: #fff;
 }
+h3{
+    font-family: Anton;
+    font-size: 25px;
+    color: #F353D5;
+    line-height: 45px;
+}
+
 
 /* footer */
 
@@ -189,7 +158,7 @@ footer{
 }
 
 
-/* Who we are */
+/* Who we are page*/
 
 #introduction{
     clear: both;
@@ -197,7 +166,7 @@ footer{
 
 .frame{
     clear: both;
-    height: 700px;
+    height: 800px;
     background-color: #fff;
 }
 
@@ -225,6 +194,7 @@ footer{
 #photo2{
     float: right;
     width: 50%;
+    padding-right: 30px;
 }
 
 /* Reach out page */
@@ -273,6 +243,9 @@ footer{
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    color: #2B18A3;
+    font-weight: 50%;
+    font-size: 200%;
 }
 
 #form-tex:after{
@@ -326,4 +299,12 @@ footer{
 
 .btn:hover{
     background-color: #88C9FA;
+}
+
+#heart-photo{
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    object-fit: contain
 }
