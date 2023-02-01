@@ -271,6 +271,9 @@ input[type="text"],textarea{
     transition:0.4s; 
 }
 
+.my-form { 
+    width:40%; 
+}
 
 /*Thank you page*/
 
@@ -291,15 +294,63 @@ input[type="text"],textarea{
     color: #2B18A3;
 }
 
+/* Media queries */
 
-@media (min-width:48em) {
-    .my-form { 
-        width:60%; 
+/* For larger to medium screens size from 1200px wide and down*/
+@media screen and (max-widht:1200px) {
+    #fight-for{
+       width: 65%;
+       height: 1200px;
+       margin: 0 auto;
     }
+   
+    #what {
+       padding: 30px 0;
+       margin: 0;
     }
-    
-@media (min-width:80em) {
-    .my-form { 
-        width:40%; 
+   
+    #text {
+       width: 100%;
+       float: left;
+       padding: 0;
     }
-    } 
+   
+    hr {
+       display: none;
+    }
+   }
+   
+   /* For medium screens sizer from 950px wide and down*/
+   @media screen and (max-width:950px) {
+   
+       #menu {
+           clear: left;
+           float: left;
+           margin-left: 30px;
+           margin-bottom: 20px;
+           line-height: 25px;
+       }
+   
+       #fight-for  {
+           width: 90%;
+           height: 1200px;
+           margin: 0 auto;
+       }
+   
+       .what {
+            width: inherit;
+       }
+   
+       #introduction {
+           column-count: 1;
+       }
+   }
+   
+   
+   /* For small screens sizes 800px and down */
+   @media screen and (max-width:800px) {
+       #introduction {
+           column-count: 0;
+       }
+   }
+   
