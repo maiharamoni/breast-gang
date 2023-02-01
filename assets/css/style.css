@@ -271,15 +271,35 @@ input[type="text"],textarea{
     transition:0.4s; 
 }
 
-/*768PX BREAKPOINT*/
+
+/*Thank you page*/
+
+#thankyou-section{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 600px;
+}
+ 
+.thankyou{
+    font-family: Lora;
+    color: #2B18A3;
+    text-align: center;
+}
+
+#thankyoutext{
+    font-family: Lora;
+    color: #2B18A3;
+}
+
+
 @media (min-width:48em) {
-.my-form { 
-    width:60%; 
-}
-}
-/*1280PX BREAKPOINT*/
+    .my-form { 
+        width:60%; 
+    }
+    }
+    
 @media (min-width:80em) {
-.my-form { 
-    width:40%; 
-}
-} 
+    .my-form { 
+        width:40%; 
+    }
+    } 
