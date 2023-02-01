@@ -57,11 +57,11 @@ h1, h2{
 }
 
 #menu a:hover{
-    border-bottom: 2px solid #88C9FA;
+    border-bottom: 2px solid #2B18A3;
 }
 
 .active{
-    border-bottom: 2px solid #88C9FA;
+    border-bottom: 2px solid #2B18A3;
 }
 
 /* hero image */
@@ -154,7 +154,7 @@ footer{
     font-size: 160%;
     margin: 0.5%;
     padding: 2%;
-    color: #88C9FA;
+    color: #2B18A3;
 }
 
 
@@ -171,7 +171,7 @@ footer{
 }
 
 #textpage2{
-    color: #F353D5;
+    color: #2B18A3;
     font-size: 280%;
     font-family: Anton;
     text-align: center;
@@ -199,112 +199,87 @@ footer{
 
 /* Reach out page */
 
-.container{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-    height: 100%;
-    padding: 20px 100px;
-}
-
-.container::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.content-box{
-    max-width: 850px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-}
-
-.left{
-    height: 100%;
-}
-
-.right{
-    padding: 25px 40px;
-}
-
-#form-text{
-    position: relative;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+.my-form h1{ 
+    font-size:2.5em; 
     color: #2B18A3;
-    font-weight: 50%;
-    font-size: 200%;
+    margin-bottom:0.5em; 
 }
 
-#form-tex:after{
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
+.my-form{ 
+    width:100%;
+    overflow: hidden;
+    background-color: white;
+    margin: auto;
+    padding: 10em;
+    border-radius:6px; 
+}
+
+.label{ 
+    float:left; 
+    width:100%; 
+    margin-bottom:20px; 
+    position:relative; 
+}
+input[type="text"],textarea{ 
+    font-family:'open_sansregular';
+    font-size:1.3em; 
+    color: #a2a2a2; 
+    width: 100%; 
+    box-sizing:border-box;
+    outline:none; 
+}
+
+.effect-line:focus{ 
+    color: #2B18A3;
+}
+
+.effect-line {
+    border:0; 
+    padding:7px 0; 
+    border-bottom:1px solid #f0f0f0;
+}
+
+.effect-line ~ .focus-border{
+    position:absolute; 
+    bottom:0; 
+    left:0; 
+    width:0; 
+    height:3px; 
     background-color: #2B18A3;
+    transition: 0.5s;
 }
 
-.field{
-    width: 100%;
-    padding: 0.5rem 1rem;
-    outline: none;
-    border: 2 px solid rgba(0, 0, 0, 0);
-    background-color: rgba(230, 230, 230, 0.6);
-    font-size: 1.1rem;
-    margin-bottom: 22px;
-    transition: .3s;
+.effect-line:focus ~ .focus-border{ 
+    width:100%; transition:0.4s; 
 }
 
-.field:hover{
-    background-color: rgba(230, 230, 230, 0.1);
-}
-
-.fiel:focus{
-    background-color: #fff;
-    border: 2px solid rgba(30, 85, 250, 0.47);
-}
-
-.area{
-    min-height: 150px;
-}
-
-.btn{
-    width: 100%;
-    padding: 0.5rem 1rem;
-    font-size: 1.1rem;
-    background-color: #2B18A3;
-    align-items: stretch;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    color: #fff;
-    transition: ;
-}
-
-.btn:hover{
-    background-color: #88C9FA;
-}
-
-#heart-photo{
-    width: 50%;
+.btn-send { 
+    width: 160px;
     float: left;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    object-fit: contain
+    background: #2B18A3;
+    color: #ffffff;
+    border: none;
+    cursor: pointer; 
+    padding: 0.4em 0em; 
+    font-size: 1.5em;
+    font-family:'open_sansregular';
+    transition:0.4s; 
 }
+
+.btn-send:hover{ 
+    background-color: #F353D5;
+    transition:0.4s; 
+}
+
+/*768PX BREAKPOINT*/
+@media (min-width:48em) {
+.my-form { 
+    width:60%; 
+}
+}
+/*1280PX BREAKPOINT*/
+@media (min-width:80em) {
+.my-form { 
+    width:40%; 
+}
+} 
